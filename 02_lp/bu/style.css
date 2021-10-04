@@ -1,0 +1,80 @@
+/* ここから下に記載していく */
+.header__nav {
+  display: flex;
+}
+
+.header__nav li {
+  margin-left: 40px;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ここからメインビジュアル */
+.mainvisual {
+  height: 400px;
+  background: url(../img/mainbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.mainvisual__title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.mainvisual__subtitle{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ここからアバウト */
+.about{
+  text-align: center;
+  width: 60%;
+  /* background-color: brown; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about__title{
+  font-size: 30px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-bottom: 20px;
+}
+
+.about__subtitle{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about__text{
+  margin-bottom: 20px;
+}
+
+/* ここから画像エリア */
+.imgBox{
+  display: flex;
+}
+
+.imgBox p{
+  width: 25%;
+}
+
+.imgBox p img {
+  width: 100%
+}
